@@ -27,7 +27,6 @@
 3. Click **+ Container**.
 4. Enter the container name:
 
-```text
 images
 
 ### Step 4: Upload Sample Images
@@ -39,7 +38,7 @@ images
 
 Example input images:
 
-```text
+
 image1.jpg
 image2.jpg
 image3.jpg
@@ -57,7 +56,6 @@ image3.jpg
 
 Open Command Prompt or Terminal and execute:
 
-```bash
 pip install azure-storage-blob pillow
 ### Step 7: Write Multithreaded Python Code
 
@@ -156,12 +154,14 @@ def main():
 
 if __name__ == "__main__":
     main()
+```
 ### Step 8: Run the Application
 
 1. Replace:
 
-```python
+
 connection_string = "YOUR_CONNECTION_STRING"
+
 
 ### Step 9: Verify the Output
 
@@ -173,7 +173,7 @@ connection_string = "YOUR_CONNECTION_STRING"
 
 The `images` container should contain:
 
-```text
+
 image1.jpg
 image2.jpg
 image3.jpg
@@ -185,7 +185,7 @@ processed_image3.jpg
 
 ### Terminal Output
 
-```text
+
 Processing: image1.jpg
 Processing: image2.jpg
 Processing: image3.jpg
